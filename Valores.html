@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Pagina Web</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css">
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20;
+            padding: 0;
+            background-color: #95A5A6;
+        }
+        header {
+            background-color: #95A5A6;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #34495E;
+            color: #fff;
+            text-align: right;
+            padding: 10px 0;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+       
+        .Tamaño{
+            width: auto;
+            height: 650px;
+
+        }
+        .TamañoCuerpo{
+            width: 350px;
+            height: 350px;
+        }
+        .valores{
+            font-family: cursive;
+            background-color: #D1F2EB;
+            color: #21618C;
+            padding: 50px;
+            text-align: center;
+        }
+
+        .mision{
+            font-family: cursive;
+            background-color: #34495E;
+            color: #F7F9F9;
+            padding: 50px;
+            text-align: center;
+        }
+        .vision{
+            font-family: cursive;
+            background-color: #7D6608;
+            color: #3E2723;
+            padding: 50px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        footer ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        footer ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        footer ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<link rel="shortcut icon" href="C:\Users\Dell W10\Desktop\Proyecto Pagina Web\IMG\Icono.png" />
+<body>
+    <header>
+        <div class="slider">
+            <div class="my-slider">
+                <img class="Tamaño" src="C:\Users\Dell W10\Desktop\Proyecto Pagina Web\IMG\slider1.jpg" alt="Slider 1">
+                <img class="Tamaño" src="C:\Users\Dell W10\Desktop\Proyecto Pagina Web\IMG\slider2.jpg" alt="Slider 2">
+                <img class="Tamaño" src="C:\Users\Dell W10\Desktop\Proyecto Pagina Web\IMG\slider3.jpg" alt="Slider 3">
+            </div>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="Index.html">Inicio</a></li>
+            <li><a href="Mision.html">Misión</a></li>
+            <li><a href="Vision.html">Visión</a></li>
+            <li><a href="Contacto.html">Contacto</a></li>
+            <li><a href="InicioDeSesion.html">Iniciar Sesión</a></li>
+        </ul>
+    </nav>
+    
+<div class="valores">
+    <section id="Valores">
+            <img class="TamañoCuerpo" src="C:\Users\Dell W10\Desktop\Proyecto Pagina Web\IMG\Foto1.jpg" alt="">
+        <h2>Valores</h2>
+        <p>Soy una persona que posee estos valores ya que los valores<br>
+            son los principios que nos guian la forma de actuar, pensar y ser:</br>
+     </p>
+        
+            <li>Empatia</li>
+            <li>Humildad</li>
+            <li>Responsabilidad</li>
+            <li>Solidaridad</li>
+            <li>Sinceridad</li>
+        
+    </section>
+</div>  
+
+    <footer>
+        <ul>
+            
+            
+            <li><a href="https://www.instagram.com/___edwin._.fuentes___/?igsh=MXFqcGxrb3N3Mmc0MA%3D%3D" rel="shortcut icon" href="C:\Users\Dell W10\Desktop\Proyecto Pagina Web\IMG\Icono.png">Instagram</a></li>
+
+            <li><a href="https://www.facebook.com/edwindaniel.fuentes?mibextid=JRoKGi">Facebook</a></li>
+
+            
+            
+            <li><a href="https://wa.me/+50239938424?text=Hola%20desde%20mi%20página%20web">WhatsApp</a></li>
+        </ul>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/min/tiny-slider.js"></script>
+    <script>
+        var slider = tns({
+            container: '.my-slider',
+            items: 1,
+            autoplay: true,
+            autoplayButtonOutput: false,
+            autoplayHoverPause: false,
+            controls: false,
+            nav: false,
+            autoplayTimeout: 3000
+        });
+    </script>
+</body>
+</html>
